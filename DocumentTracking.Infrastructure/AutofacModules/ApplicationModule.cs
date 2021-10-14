@@ -15,7 +15,7 @@ namespace DocumentTracking.Infrastructure.AutofacModules
                 .InstancePerLifetimeScope();
 
             //builder.RegisterType<OrderRepository>()
-            //    .As<IOrderRepository>()
+            //   .As<IOrderRepository>()
             //    .InstancePerLifetimeScope();
 
             //builder.RegisterType<RequestManager>()

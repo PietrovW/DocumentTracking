@@ -7,7 +7,6 @@ using System;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using DocumentTracking.Infrastructure.Filter;
-using Microsoft.OpenApi.Models;
 using DocumentTracking.Infrastructure.Services;
 using DocumentTracking.Infrastructure.Options;
 using MediatR;
