@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+  postgres:
+    container_name: postgres_container
+  
+  pgadmin:
+    container_name: pgadmin_container
+
+  api:
+    container_name: document_tracking_api  
