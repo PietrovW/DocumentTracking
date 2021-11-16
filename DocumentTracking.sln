@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B9239B6F-2E6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentTracking.Infrastructure", "src\DocumentTracking.Infrastructure\DocumentTracking.Infrastructure.csproj", "{4DE8DA69-0B61-4043-8902-B0AB966D9DD9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7648E1C1-FBEF-462D-A46B-E82F59142B4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
