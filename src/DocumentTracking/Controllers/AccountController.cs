@@ -71,8 +71,6 @@ namespace DocumentTracking.Api.Controllers
         [ProducesDefaultResponseType]
         public async Task<IActionResult> ChangePassword([FromBody]ChangePasswordModel model)
         {
-            var teste = this.UserId;
-
             ChangePasswordCommand changePasswordCommand = new ChangePasswordCommand() { NewPassword = model.NewPassword, OldPassword = model.CurrentPassword };
             var result = await GetMediator.Send(changePasswordCommand);
             return Ok(result);

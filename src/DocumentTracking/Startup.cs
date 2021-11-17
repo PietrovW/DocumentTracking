@@ -4,7 +4,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 using System;
-using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using DocumentTracking.Infrastructure.Filter;
 using DocumentTracking.Infrastructure.Services;
